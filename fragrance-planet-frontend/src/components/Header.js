@@ -1,5 +1,6 @@
 import React from 'react';
 import { AppBar, Toolbar, Typography, Button } from '@mui/material';
+import './header.css';
 
 function Header() {
   return (
@@ -9,15 +10,16 @@ function Header() {
           <nav id="navbar" class="navbar">
             <ul>
               <li><a href="#">Home</a></li>
-              <li><a href="frag.html">Fragrances</a></li>
-              <li><a href="#">About Us</a></li>
-              <li><a href="#">Contact</a></li>
+              <li><a href="AI.html">Fragrances</a></li>
+              <li><a href="about.html">About Us</a></li>
             </ul>
           </nav>
         </Typography>
-        <button class="profile-button" onclick="handleProfileClick()">
-          <img src="https://via.placeholder.com/40" alt="Profile Icon" />
-        </button>
+        <a href="user.html">
+          <button class="profile-button" onclick="handleProfileClick()">
+            <img src="#" />
+          </button>
+        </a>
       </Toolbar>
     </AppBar>
   );
