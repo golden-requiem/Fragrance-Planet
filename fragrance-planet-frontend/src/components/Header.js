@@ -6,9 +6,18 @@ function Header() {
     <AppBar position="sticky" color="primary">
       <Toolbar>
         <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-          Fragrance Planet
+          <nav id="navbar" class="navbar">
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="frag.html">Fragrances</a></li>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </nav>
         </Typography>
-        <Button color="inherit">Login</Button>
+        <button class="profile-button" onclick="handleProfileClick()">
+          <img src="https://via.placeholder.com/40" alt="Profile Icon" />
+        </button>
       </Toolbar>
     </AppBar>
   );

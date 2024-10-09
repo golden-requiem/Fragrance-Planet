@@ -15,14 +15,17 @@ function HomePage() {
       }}
     >
       <Typography variant="h2" color="primary" gutterBottom>
-        Find Your Perfect Fragrance
+        Fragrance Planet
       </Typography>
       <Typography variant="body1" color="text.secondary" align="center">
-        Discover scents that suit your personality. Let us recommend something special for you.
+        Discover scents that suit your personality
       </Typography>
-      <Button variant="contained" color="secondary" sx={{ marginTop: 3 }}>
-        Browse Now
-      </Button>
+      <form action="#" method="GET">
+        <input type="text" placeholder="search" id="input" />
+        <button type="submit" class="search_button">
+          <img src="" alt="" />
+        </button>
+      </form>
     </Box>
   );
 }

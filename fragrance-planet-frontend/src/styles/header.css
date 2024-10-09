@@ -1,0 +1,33 @@
+/* Style for the navbar */
+.navbar {
+    background-color: #333; /* Background color of the navbar */
+    padding: 10px; /* Padding inside the navbar */
+  }
+  
+  /* Remove default list styling and display items horizontally */
+  .navbar ul {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+    display: flex; /* Display items in a row */
+  }
+  
+  /* Style for the list items */
+  .navbar li {
+    margin-right: 20px; /* Spacing between the items */
+  }
+  
+  /* Style for the anchor links */
+  .navbar a {
+    text-decoration: none; /* Remove underline from links */
+    color: white; /* Text color */
+    padding: 8px 12px; /* Padding around the text */
+    display: block; /* Make the entire area clickable */
+  }
+  
+  /* Add a hover effect */
+  .navbar a:hover {
+    background-color: #575757; /* Change background on hover */
+    border-radius: 4px; /* Rounded corners on hover */
+  }
+  
